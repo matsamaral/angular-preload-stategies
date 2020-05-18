@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-preload-strategies"
+    }
+  },
+  "defaultProject": "angular-preload-strategies",
+  "cli": {
+    "analytics": "056c54cf-5167-4d54-bd6d-9d13b7045439"
+  }
 }
